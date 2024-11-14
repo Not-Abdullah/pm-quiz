@@ -1,5 +1,38 @@
 components:
-- components: []
+- components:
+  - components:
+    - layout_properties: {grid_position: 'HEWSSG,ESVOYP'}
+      name: Question_lbl
+      properties: {align: center, background: '#ea8aa7', role: headline, text: 'Who is this?'}
+      type: Label
+    - layout_properties: {grid_position: 'SMCBQD,ETWEZP'}
+      name: pm_img
+      properties: {height: 270, source: _/theme/edmund_barton.png, visible: true}
+      type: Image
+    - event_bindings: {click: Alfred_deakin_btn_click}
+      layout_properties: {grid_position: 'CEJABO,FTLJWG'}
+      name: Alfred_deakin_btn
+      properties: {font_size: 26, icon: 'fa:500px', role: null, text: Alfred Deakin}
+      type: Button
+    - event_bindings: {click: Edmud_barton_btn_click}
+      layout_properties: {grid_position: 'KOVWVD,AJIEJA'}
+      name: Edmud_barton_btn
+      properties: {font_size: 25, icon: 'fa:500px', text: Edmud Barton}
+      type: Button
+    - event_bindings: {click: John_curtin_btn_click}
+      layout_properties: {grid_position: 'VBZVQX,OLNREM'}
+      name: John_curtin_btn
+      properties: {font_size: 25, icon: 'fa:500px', text: John Curtin}
+      type: Button
+    - event_bindings: {click: andrew_fisher_btn_click}
+      layout_properties: {grid_position: 'GTBKQX,XGAOIX'}
+      name: andrew_fisher_btn
+      properties: {font_size: 25, icon: 'fa:500px', text: Andrew Fisher}
+      type: Button
+    layout_properties: {grid_position: 'NTOWAE,QTTNZJ'}
+    name: outlined_card_1
+    properties: {role: outlined-card}
+    type: ColumnPanel
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
